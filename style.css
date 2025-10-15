@@ -225,26 +225,31 @@ footer {
     max-height: 90vh; /* ajusta un poco para móviles */
   }
 
-/* ===== Botón Paletton Estilizado ===== */
+/* ===== Botón Paletton definitivo ===== */
 footer a.paletton-btn {
-  display: inline-block;
-  padding: 0.6rem 1.2rem;
-  margin-top: 0.5rem;
-  font-weight: 700;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 0.95rem;
-  color: #FEFEFE;
-  background: linear-gradient(135deg, #4a90e2, #50e3c2);
-  border: 2px solid #50e3c2;
-  border-radius: 12px;
-  text-decoration: none;
-  text-shadow: 0 0 6px rgba(0,0,0,0.6);
-  box-shadow: 0 0 12px rgba(74,144,226,0.6), 0 0 20px rgba(80,227,194,0.5);
-  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  display: inline-block !important;
+  padding: 0.7rem 1.5rem !important;
+  margin-top: 0.5rem !important;
+  font-weight: 700 !important;
+  font-family: 'Orbitron', sans-serif !important;
+  font-size: 1rem !important;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #4a90e2, #50e3c2) !important;
+  border: 2px solid #50e3c2 !important;
+  border-radius: 12px !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  text-shadow: 0 0 6px rgba(0,0,0,0.6) !important;
+  box-shadow: 0 0 12px rgba(74,144,226,0.6), 0 0 20px rgba(80,227,194,0.5) !important;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease !important;
+  position: relative !important;
+  z-index: 5 !important;
 }
 
 footer a.paletton-btn:hover {
-  transform: translateY(-3px) scale(1.05);
-  background: linear-gradient(135deg, #50e3c2, #4a90e2);
-  box-shadow: 0 0 18px rgba(74,144,226,0.8), 0 0 28px rgba(80,227,194,0.7);
+  transform: translateY(-3px) scale(1.05) !important;
+  background: linear-gradient(135deg, #50e3c2, #4a90e2) !important;
+  box-shadow: 0 0 18px rgba(74,144,226,0.8), 0 0 28px rgba(80,227,194,0.7) !important;
 }
+
+
