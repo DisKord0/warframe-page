@@ -183,15 +183,16 @@ figure {
   padding: 0.7rem 0;
 }
 figure img {
-  max-width: 100%;
+  max-width: 80%; 
   height: auto;
   border-radius: 10px;
   border: 1px solid rgba(255,255,255,0.03);
-  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
   transform: translateY(0);
   transition: transform 0.3s ease;
   background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
 }
+
 figure img:hover {
   transform: translateY(-6px) scale(1.01);
 }
@@ -221,3 +222,4 @@ footer {
   section { padding: 0.9rem; }
   nav { gap: 0.4rem; }
 }
+
