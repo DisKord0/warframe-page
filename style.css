@@ -225,7 +225,7 @@ footer {
     max-height: 90vh; /* ajusta un poco para móviles */
   }
 
-/* Botón Paletton */
+/*  Botón Paletton  */
 footer a.paletton-btn {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -246,6 +246,7 @@ footer a.paletton-btn:hover {
 }
 
 }
+
 
 
 
