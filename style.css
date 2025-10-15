@@ -133,11 +133,12 @@ main {
   z-index: 2;
   padding: clamp(1rem, 3vw, 2rem);
   width: min(1100px, 94%);
+  max-height: 85vh; /* limita la altura del cuadro */
   margin: 1.2rem auto;
   background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));
   border-radius: 12px;
   box-shadow: 0 6px 40px rgba(0,0,0,0.55);
-  /* overflow: hidden; */   /* <-- quitar esta línea */
+  overflow-y: auto; /* permite scroll vertical */
 }
 
 section {
@@ -182,12 +183,13 @@ figure {
   text-align: center;
   padding: 0.7rem 0;
 }
+
 figure img {
-  max-width: 80%; 
+  max-width: 90%;  /* ahora son más pequeñas */
   height: auto;
   border-radius: 10px;
   border: 1px solid rgba(255,255,255,0.03);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
   transform: translateY(0);
   transition: transform 0.3s ease;
   background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
@@ -215,12 +217,14 @@ footer {
   border-top: 1px solid rgba(255,255,255,0.02);
 }
 
-/* ===== Responsividad ===== */
 @media (max-width:700px) {
-  header h1 { font-size: 1.1rem; }
-  main { padding: 1rem; width: 96%; }
-  section { padding: 0.9rem; }
-  nav { gap: 0.4rem; }
+  figure img {
+    max-width: 100%; /* en móviles ocupan casi todo el ancho */
+  }
+  main {
+    max-height: 90vh; /* ajusta un poco para móviles */
+  }
 }
+
 
 
