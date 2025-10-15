@@ -224,7 +224,28 @@ footer {
   main {
     max-height: 90vh; /* ajusta un poco para móviles */
   }
+
+  /* Botón Paletton */
+footer a.paletton-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 0.3rem;
+  font-weight: 600;
+  color: var(--c-1);
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.05));
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
+
+footer a.paletton-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+  background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(0,0,0,0.08));
+}
+}
+
 
 
 
