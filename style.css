@@ -45,7 +45,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ===== Fondo animado ===== */
+
 body::before {
   content: "";
   position: fixed;
@@ -245,6 +245,7 @@ footer a.paletton-btn:hover {
   background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(0,0,0,0.08));
 }
 }
+
 
 
 
