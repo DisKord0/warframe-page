@@ -129,7 +129,6 @@ nav a:hover {
   box-shadow: 0 6px 18px rgba(0,0,0,0.45);
 }
 
-/* ===== Main y Secciones ===== */
 main {
   z-index: 2;
   padding: clamp(1rem, 3vw, 2rem);
@@ -138,8 +137,9 @@ main {
   background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));
   border-radius: 12px;
   box-shadow: 0 6px 40px rgba(0,0,0,0.55);
-  overflow: hidden;
+  /* overflow: hidden; */   /* <-- quitar esta línea */
 }
+
 section {
   padding: 1.2rem 1rem;
   border-radius: 8px;
@@ -222,4 +222,5 @@ footer {
   section { padding: 0.9rem; }
   nav { gap: 0.4rem; }
 }
+
 
